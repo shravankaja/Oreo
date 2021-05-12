@@ -1,0 +1,47 @@
+.mainHeaderContainerSignInPage {
+    width : 70%;
+    height : 6%;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top : 30px;
+}
+
+.homeTitleSignInPage{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 100;
+    font-size: small;
+    width : 20%;
+    height : 100%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logosAndSignUpLinksSignInPage {
+    width : 40%;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+.signUpButtonSignIn {
+    background-color: #fff;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+}
+
+.signUpButtonSignIn {
+    height: 40px;
+    width : 80px;
+}
