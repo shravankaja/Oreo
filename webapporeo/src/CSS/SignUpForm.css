@@ -1,0 +1,147 @@
+.main-Form-Container-SignUp-Page {
+    
+    width : 350px;
+    height : 65%;
+    margin : 0 auto;    
+    position: relative;
+    top : 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-Contaoner-SignUp-Form {
+   
+    width : 100%;
+    height : 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp-Form-Heading-SubHeading {
+    
+    height : 15%;
+    width : 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signUp-Main-Heading, .signUp-Sub-Heading {
+    width : 100%;
+    height : 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color : #fff;
+}
+.signUp-Main-Heading {
+    font-size: x-large;
+}
+
+.signUp-Sub-Heading {
+    font-weight: 100;
+}
+
+.signUp-MainForm-Container {
+    
+    height : 58%;
+    width : 100%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.singUp-Form-Input-Container {
+    height : 22%;
+    width : 100%;
+    border : 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 40px;
+}
+
+.input-Field-Container-SignUp {
+    width : 70%;
+    height : 100%;
+    outline: none;
+    background: unset;
+    border:none;
+}
+
+.signUp-Logo-UserName, .signUp-Logo-Email, .signUp-Logo-Password {
+    width :20%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.singUp-Form-Input-Container-Conditions {
+
+    height : 12%;
+    width : 100%;
+    color : #fff;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.signUp-Button {
+    height :12%;
+    width : 100%;
+   
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-SignUp-Page {
+    height: 100%;
+}
+
+.errorNoti-SignUp {
+    width : 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    left : 50px;
+    color : red;
+}
+.signUp-Form-Checkbox {
+    position: relative;
+    right: 10px;
+}
+
+.signUp-Button-SignUp-Page {
+    width : 90%;
+    height : 100%;
+    border-radius: 40px;
+    background-color:#6572b8;
+    outline: none;
+    border : none;
+}
+
+.signUp-Button-SignUp-Page:hover {
+    background-color: rgb(167, 120, 230)
+}
+
+::placeholder {
+    color: #fff;
+}
+
+#red {
+    color : red;
+}
+
+input {
+    color: #fff;
+}
