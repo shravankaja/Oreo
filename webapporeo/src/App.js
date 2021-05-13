@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import SignIn from './Pages/SignIn'
-
-
+import Router1 from './Router.js'
 
 function App() {
   return (
-    <SignIn />
+    <Router1 />
   )
-}
+} 
 
 export default App;
