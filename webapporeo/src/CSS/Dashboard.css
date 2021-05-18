@@ -1,0 +1,11 @@
+.dashboard-flexbox {
+    display: flex;
+    flex-direction: row;
+    height : fit-content;
+    transition: 2000ms linear;
+}
+
+.dashboard-Header-MainContainer {
+    width : 100%;
+    height : 100%;
+}
