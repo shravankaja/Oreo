@@ -1,0 +1,303 @@
+{
+    "PieChart": [
+        {
+            "y1": 120,
+            "y2": 40
+        }
+    ],
+    "NestedBarChart": [
+        {
+            "x": 100
+        }
+    ],
+    "dataBar": [
+        {
+            "dataBarOne": [
+                {
+                    "p": 1.0,
+                    "earnings": 3
+                },
+                {
+                    "p": 2.0,
+                    "earnings": 22
+                },
+                {
+                    "p": 3.0,
+                    "earnings": 20
+                },
+                {
+                    "p": 4.0,
+                    "earnings": 17
+                },
+                {
+                    "p": 5.0,
+                    "earnings": 9
+                },
+                {
+                    "p": 6.0,
+                    "earnings": 1
+                },
+                {
+                    "p": 7.0,
+                    "earnings": 8
+                },
+                {
+                    "p": 8.0,
+                    "earnings": 3
+                },
+                {
+                    "p": 9.0,
+                    "earnings": 2
+                },
+                {
+                    "p": 10.0,
+                    "earnings": 4
+                },
+                {
+                    "p": 11.0,
+                    "earnings": 3
+                }
+            ]
+        },
+        {
+            "dataBarTwo": [
+                {
+                    "p": 1.0,
+                    "earnings": 8
+                },
+                {
+                    "p": 2.0,
+                    "earnings": 8
+                },
+                {
+                    "p": 3.0,
+                    "earnings": 11
+                },
+                {
+                    "p": 4.0,
+                    "earnings": 6
+                },
+                {
+                    "p": 5.0,
+                    "earnings": 0
+                },
+                {
+                    "p": 6.0,
+                    "earnings": 29
+                },
+                {
+                    "p": 7.0,
+                    "earnings": 7
+                },
+                {
+                    "p": 8.0,
+                    "earnings": 33
+                },
+                {
+                    "p": 9.0,
+                    "earnings": 27
+                },
+                {
+                    "p": 10.0,
+                    "earnings": 22
+                },
+                {
+                    "p": 11.0,
+                    "earnings": 20
+                }
+            ]
+        },
+        {
+            "dataBarThree": [
+                {
+                    "p": 1.0,
+                    "earnings": 32
+                },
+                {
+                    "p": 2.0,
+                    "earnings": 0
+                },
+                {
+                    "p": 3.0,
+                    "earnings": 7
+                },
+                {
+                    "p": 4.0,
+                    "earnings": 0
+                },
+                {
+                    "p": 5.0,
+                    "earnings": 44
+                },
+                {
+                    "p": 6.0,
+                    "earnings": 15
+                },
+                {
+                    "p": 7.0,
+                    "earnings": 0
+                },
+                {
+                    "p": 8.0,
+                    "earnings": 0
+                },
+                {
+                    "p": 9.0,
+                    "earnings": 0
+                },
+                {
+                    "p": 10.0,
+                    "earnings": 27
+                },
+                {
+                    "p": 11.0,
+                    "earnings": 3
+                }
+            ]
+        }
+    ],
+    "smallTextAreaChart": [
+        {
+            "x": 2,
+            "y": 1,
+            "y0": 1,
+            "label": 1
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "y0": 1,
+            "label": 4
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "label": 3
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "label": 2
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "label": 1
+        }
+    ],
+    "dataCurveChart": [
+        {
+            "curveOne": [
+                {
+                    "x": 2,
+                    "y": 0.4,
+                    "label": 1
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "label": 4
+                },
+                {
+                    "x": 6,
+                    "y": 0.9,
+                    "label": 3
+                },
+                {
+                    "x": 8,
+                    "y": 0.4,
+                    "label": 6
+                },
+                {
+                    "x": 10,
+                    "y": 1.2,
+                    "label": 3
+                },
+                {
+                    "x": 12,
+                    "y": 0.2,
+                    "label": 3
+                },
+                {
+                    "x": 14,
+                    "y": 0.9,
+                    "label": 3
+                }
+            ],
+            "curveTwo": [
+                {
+                    "x": 2,
+                    "y": 1.2,
+                    "label": 1
+                },
+                {
+                    "x": 4,
+                    "y": 0.2,
+                    "label": 4
+                },
+                {
+                    "x": 6,
+                    "y": 0.5,
+                    "label": 3
+                },
+                {
+                    "x": 8,
+                    "y": 0.6,
+                    "label": 6
+                },
+                {
+                    "x": 10,
+                    "y": 0.8,
+                    "label": 3
+                },
+                {
+                    "x": 12,
+                    "y": 0.4,
+                    "label": 3
+                },
+                {
+                    "x": 14,
+                    "y": 0.1,
+                    "label": 3
+                }
+            ],
+            "curveThree": [
+                {
+                    "x": 2,
+                    "y": 0.1,
+                    "label": 1
+                },
+                {
+                    "x": 4,
+                    "y": 0.6,
+                    "label": 4
+                },
+                {
+                    "x": 6,
+                    "y": 1.1,
+                    "label": 3
+                },
+                {
+                    "x": 8,
+                    "y": 0.7,
+                    "label": 6
+                },
+                {
+                    "x": 10,
+                    "y": 0.2,
+                    "label": 3
+                },
+                {
+                    "x": 12,
+                    "y": 0.35,
+                    "label": 3
+                },
+                {
+                    "x": 14,
+                    "y": 0.75,
+                    "label": 3
+                }
+            ]
+        }
+    ]
+}
