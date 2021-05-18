@@ -1,0 +1,76 @@
+.dashboard-Header-Main-Container {
+    height : 60px;
+    background-color: rgb(175, 94, 241);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(66, 1, 92, 0.19);
+    position:sticky;
+}
+
+.dashboard-Header-logo-Container {
+    width : 8%;
+    height : 65%;
+    position: relative;
+    right : 28%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+.dashboard-Header-logo-Element {
+    width : 40%;
+    height : 100%;
+    margin-right: 15px;
+}
+
+.dashboard-Header-title-Element {
+    width : 55%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color : #fff;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.dashboard-Header-Icons-SearchBox-Container {
+    width : 30%;
+    height : 65%;
+    position: relative;
+    right : 26%;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dashboard-Header-Searchboc-Element {
+    outline: none;
+    border:none;
+    height: 100%;
+    
+
+}
+
+.dashboard-Header-Searchbox-Container {
+    height : 75%;
+    border-radius: 40px;
+   
+}
+
+.dashboard-Header-Logout-Setting-Container{
+    width : 5%;
+    height: 65%;
+    position: relative;
+    left : 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
