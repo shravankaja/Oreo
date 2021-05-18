@@ -1,0 +1,562 @@
+.maincoantianer-barchart-ecommerce {
+    width : 90%;
+    height: 540px;
+    margin : 0 auto;
+    position: relative;
+    bottom : 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffff;
+    
+}
+
+.barchart-ecommerce-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width : 100%;
+    height : 40px;
+    background-color: #fff;
+}
+
+.product-barchart-heading {
+    color: indigo;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3%;
+}
+
+.report-barchart-heading {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.report-tabs-barchart-ecommerce {
+    width :10%;
+    height : 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.report-tabs-icon-barchart-ecommerce {
+    width : 34%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.report-tabs-icon-container {
+    width : 80%;
+    height: 50%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.report-tabs-desc-barchart-ecommerce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 64%;
+    height : 100%;
+}
+
+.report-tabs-desc-heading {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.report-tabs-desc-figures {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+}
+
+
+.barchart-summary-stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width : 100%;
+    height : 100px;
+    background-color: #fff;
+}
+
+.barchart-ecommerce {
+    width : 100%;
+    height : 400px;
+    position: relative;
+    bottom : 50px;
+}
+
+.chartContainer-ecommerece {
+   height : 500px;
+    width : 100%;
+}
+.ecommerceDashboard-components-containers{
+    background-color: lightgrey;
+}
+
+
+
+.ecommerece-textarea-stats-containers {
+    width : 90%;
+    margin : 0 auto;
+    height : 200px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.small-textarea-ecommerce-container{
+    width : 28%;
+    height : 200px;
+    overflow: hidden;
+    background-color: #fff;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.revenue-source-ecommerce-contianer {
+    width : 100%;
+    height : 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blue-smalltextarea {
+    margin: 15px;
+    color: indigo;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.revnue-stats {
+    width : 100%;
+    height : 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.revenue-stat-number-ecommerce{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    margin: 15px;
+}
+
+
+.revenue-desc {
+    width : 100%;
+    height : 10%;
+}
+
+.revnue-smalldesc {
+    color: gray;
+    margin : 15px;
+
+}
+.small-textarea-chart-container {
+    width : 100%;
+    height : 30%;
+   
+}
+.smalltextareacharts-ecommercedashboards {
+    position: relative;
+    right : 1px;
+    top : 6px;
+}
+
+.ecommerece-curveCharts-dashboard {
+    width : 57.8%;
+    height : 300px;
+    background-color: #fff;
+    position: relative;
+    top :50px;
+    left : 80px;
+}
+
+.nested-curvechart-main-container-ecom {
+    width : 100%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-around;
+}
+
+.nested-curve-chart-heading-subheading {
+    width : 100%;
+    height : 15%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-around;
+}
+
+.nested-curve-chart-heading {
+    position: relative;
+    top : 10px; 
+    left : 12px;
+}
+.note-nested-curve-container {
+    font-size: medium;
+    position: relative;
+    top : 15px;
+    left :20px;
+}
+
+.nested-curvechart-ecom {
+    width : 100%;
+    height: 80%;    
+}
+
+.nestcurvearea-ecommerceDashboard {
+    height: 100%;
+}
+
+.ecommerece-piechart-dashboard {
+    width : 25%;
+    height : 450px;
+    margin-left: 71%;
+    margin-top : -15.8%;
+    background-color: #fff;
+}
+
+.piechart-main-container {
+    width :100%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.piechart-heading {
+    width : 100%;
+    height : 7%;
+    
+}
+
+.piechart-sales-heading {
+    width : 100%;
+    height : 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.piechart-actual-container {
+    width : 100%;
+    height : 44%;
+    
+}
+.statisfaction-rate-container {
+    width : 100%;
+    height : 26%;
+    position: relative;
+    top : 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.piechart-container-forecom {
+    height : 98%;
+    width : 100%;
+   
+}
+
+.smallcharts-container {
+    height : 100%;
+    position: relative;
+    bottom : 10px;
+}
+
+.pir-head {
+    margin: 10px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.sastisfaction-rate-heading {
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.sastisfaction-rate-desc {
+    font-size: small;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ecommerece-recent-orders-container {
+    width : 90%;
+    height : 500px;
+    background-color: #fff;
+    margin : 0 auto;
+    position: relative;
+    top : 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.recent-orders-tabel-heading {
+        width : 100%;
+        height : 10%;
+}
+.tabelMain-Container-Recent-orders {
+    width : 100%;
+    height : 80%;
+}
+
+.recent-orders-tabel-heading {
+    display: flex;
+    flex-direction: row;    
+}
+.recent {
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.orders {
+    margin-top: 25px;
+    position: relative;
+    right : 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newcustomer-rating-profile-info {
+    width : 90%;
+    height : 500px;
+    margin : 0 auto;   
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.newcutomer-rating-container {
+    width : 60%;
+    height : 100%;
+    background-color: #fff;
+}
+
+
+ 
+.userrating-container {
+    width : 100%;
+    height : 80%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.userrating-info {
+    width : 100%;
+    height : 25%;
+    
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between
+}
+
+.avatar-userrating-info {
+    width : 15%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-desc-userating-info {
+    width : 85%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.img-userrating {
+    border-radius: 10px;
+}
+
+.avatar-name-userating-info {
+    height : 33.3%;
+    width : fit-content;
+}
+
+.avatar-comments-userating-info{
+    height : 33.3%;
+    width : fit-content
+}
+
+.avatar-badges-ratings {
+    display: flex;
+    flex-direction: row;
+    width : fit-content;
+    justify-content: space-between;
+    height : 33.3%;
+}
+
+.m-l-10 {
+    margin-left : 15px;
+}
+
+.userrating-heading {
+    width : 23%;
+    height : 20%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.profile-ecom-container {
+    height: 100%;
+    width : 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-profile-container {
+    background-color: rgb(230, 146, 233);
+    width : 100%;
+    height : 25%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameproffile {
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+.img-profile-container {
+    width : 150px;
+    height : 150px;
+    border : 3px solid #fff;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    position: relative;
+    bottom :    60px;
+}
+
+.imgprofile {
+    height : 100%;
+    width : 100%;
+    border-radius: 100px;
+}
+
+.profile-icons-container {
+    width :100%;
+    height : 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    bottom : 30px;
+}
+
+.profile-address-container {
+    width : 100%;
+    height : 8%;
+    text-align: center;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-stats-container {
+    width : 100%;
+    height : 28%;
+    position: relative;
+    top : 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-buy-stats {
+
+width :25%;
+height : 50%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+    
+
+
+.profile-mobile-stats {
+
+width :25%;
+height : 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+
+}
+
+.profile-spent-stats {
+
+width :25%;
+height : 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.numberstatsprofile {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: large;
+}
+
+.numberstatsdesc {
+
+    font-family: 'Montserrat', sans-serif;
+    color : gray;
+    font-size: medium;
+}
