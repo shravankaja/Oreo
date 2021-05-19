@@ -34,3 +34,13 @@ export const fetchCurveAreaChartsData = () => {
         })
     })
 }
+
+export const fetchProductData = () => {
+    return new Promise((resolve,reject) => {
+        axios.get("http://localhost:3000/produts").then(resp => {
+            
+            resolve(resp.data)
+        })
+    })
+}
+
