@@ -9,11 +9,8 @@ function SignIn () {
         <div className = "signInPageBody">
             <SignInHeader />  
             <SignInForm />  
-           
         </div>
         </>
-        
-    
     )
 }
 
