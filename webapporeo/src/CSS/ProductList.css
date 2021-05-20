@@ -1,0 +1,35 @@
+.productlist-main-container {
+    width : 90%;
+    height : fit-content;
+    background-color: #ffff;
+    margin : 0 auto;
+    position: relative;
+    bottom : 7%;
+    padding : 10px;
+    
+}
+
+.productlist-main-tabel-container{
+    
+    height : 100%;
+    width : 100%;
+
+}
+
+img {
+    width: 60px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+button {
+    margin : 5px;
+    width : 40px;
+    border-radius: 5px;
+    outline : none;
+    border : none;
+    background-color: gray;
+}
+i {
+    color: #fff;
+}
