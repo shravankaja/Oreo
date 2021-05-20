@@ -8,7 +8,7 @@ export { }
 
 
 function Dashboard() {
-    const [dashBoardStatus, setDashboardStatus] = useState({ dashBoardView: false, widthHeader: "100vw" })
+    const [dashBoardStatus, setDashboardStatus] = useState({ dashBoardView: false, widthHeader: "100vw",productListAndProductDisplay : "" })
 
     const setNavbarDisplayStatus = (fromHeaderButton: boolean) => {
 
@@ -17,15 +17,30 @@ function Dashboard() {
 
     }
 
+    const takeclickevent = (p:string) => {
+
+        if(p=="truepl") {
+            setDashboardStatus({...dashBoardStatus , productListAndProductDisplay : "pl"})
+        }
+        else if (p == "truep") {
+            setDashboardStatus({...dashBoardStatus, productListAndProductDisplay :"p"})
+        }
+        else if (p == "trueD") {
+            setDashboardStatus({...dashBoardStatus , productListAndProductDisplay : "D"})
+        }
+
+
+    }
+
     return (
         <>
             <div className="dashboard-flexbox">
                 <div className="dashboard-Main-Nav">
-                    {dashBoardStatus.dashBoardView ? <NavDashbordMain /> : <></>}
+                    {dashBoardStatus.dashBoardView ? <NavDashbordMain listenToProductListFromDashboard = {takeclickevent} /> : <></>}
                 </div>
                 <div className="dashboard-Header-MainContainer" style={{ width: dashBoardStatus.widthHeader }} >
                     <DashboardHeader swipeInNavbar={setNavbarDisplayStatus} />
-                    <DashboardMainPageContainer />
+                    <DashboardMainPageContainer productDisplayStatus = {dashBoardStatus.productListAndProductDisplay}  />
                 </div>
             </div>
         </>
