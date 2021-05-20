@@ -3,7 +3,24 @@ import '../CSS/NavDashboardOne.css'
 import NestedList from '../Components/NestesList-NavbarOne'
 export {}
 
-function NavDashboardOne() {
+interface propsType {
+    listenToProductList: any
+}
+
+function NavDashboardOne(props:propsType) {
+
+    const takeclickevent = (p:string) => {
+        if(p == "truepl") {
+            props.listenToProductList("truepl")
+        }
+        else if(p == "truep") {
+            props.listenToProductList("truep")
+        }
+        else if(p == "trueD") {
+            props.listenToProductList("trueD")
+        }
+
+    }
 
     return(
         <>
@@ -27,7 +44,7 @@ function NavDashboardOne() {
         
         </div>
 
-        <div className = "navbar-one-list-top-drawers-Container"><NestedList /></div>
+        <div className = "navbar-one-list-top-drawers-Container"><NestedList clickEvent= {takeclickevent} /></div>
 
         </div>
         </>
