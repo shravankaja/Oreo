@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../CSS/SignInHeader.css'
+import { useHistory } from "react-router-dom";
 
 
-function SignInHeader() {
+function SignInHeader({headerButton}) {
+    const history = useHistory();
+    
     return (
         <>
             <div className="mainHeaderContainerSignInPage">
@@ -19,7 +22,8 @@ function SignInHeader() {
 
                     <div className="linksSignInPage"><i class="fa">&#xf16d;</i></div>
 
-                    <div className = "signUpButtonContainerSignIn"><button className = "signUpButtonSignIn">Sign Up</button>  </div>
+                    <div className = "signUpButtonContainerSignIn"><button onClick = {() => {headerButton? history.push("/") : 
+                    history.push("/SignUp")  }}  className = "signUpButtonSignIn">{headerButton?"SignIn" : "SignUp"}</button>  </div>
                     
                 </div>
             
