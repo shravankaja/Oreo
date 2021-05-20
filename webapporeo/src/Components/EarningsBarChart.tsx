@@ -62,7 +62,7 @@ class EarningsBarChart extends React.Component<{}, StateType> {
 
                                 barWidth={86}
                                 data={this.state.dataOne}
-
+                                
                                 x="p"
 
                                 y="earnings"
