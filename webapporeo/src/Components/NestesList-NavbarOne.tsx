@@ -87,6 +87,7 @@ export default function NestedList(props: propType) {
   };
 
   const handleProduct = () => {
+    console.log("clicked product")
     props.clickEvent("truep")
   };
 
