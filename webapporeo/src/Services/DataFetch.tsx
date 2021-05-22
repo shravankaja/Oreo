@@ -44,3 +44,12 @@ export const fetchProductData = () => {
     })
 }
 
+export const fetchParticularProductData = (id:number) => {
+    return new Promise((resolve,reject)=> {
+        axios.get(`http://localhost:3000/produts/${id}`).then(resp => {
+        console.log(resp.data)    
+        resolve(resp.data)
+        })
+    })
+}
+
