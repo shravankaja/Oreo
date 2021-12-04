@@ -5,7 +5,7 @@ export { }
 
 export const fetchPieChartValues = () => {
     return new Promise((resolve,reject) => {
-        axios.get("http://localhost:3000/PieChart").then(resp => {
+        axios.get("https://oreodata.herokuapp.com/PieChart").then(resp => {
             resolve(resp.data[0])
         })
     })
@@ -13,7 +13,7 @@ export const fetchPieChartValues = () => {
 
 export const fetchBarchart = () => {
     return new Promise((resolve,reject) => {
-        axios.get(" http://localhost:3000/dataBar").then(resp => {
+        axios.get("https://oreodata.herokuapp.com/dataBar").then(resp => {
             resolve(resp.data)
         })
     } )
@@ -21,7 +21,7 @@ export const fetchBarchart = () => {
 
 export const fetchSmallTextAreaChartsData = () => {
     return new Promise((resolve,reject) => {
-        axios.get(" http://localhost:3000/smallTextAreaChart").then(resp => {
+        axios.get("https://oreodata.herokuapp.com/smallTextAreaChart").then(resp => {
             resolve(resp.data)
         })
     })
@@ -29,7 +29,7 @@ export const fetchSmallTextAreaChartsData = () => {
 
 export const fetchCurveAreaChartsData = () => {
     return new Promise((resolve,reject) => {
-        axios.get("http://localhost:3000/dataCurveChart").then(resp => {
+        axios.get("https://oreodata.herokuapp.com/dataCurveChart").then(resp => {
             resolve(resp.data[0])
         })
     })
@@ -37,7 +37,7 @@ export const fetchCurveAreaChartsData = () => {
 
 export const fetchProductData = () => {
     return new Promise((resolve,reject) => {
-        axios.get("http://localhost:3000/produts").then(resp => {
+        axios.get("https://oreodata.herokuapp.com/produts").then(resp => {
             
             resolve(resp.data)
         })
@@ -46,7 +46,7 @@ export const fetchProductData = () => {
 
 export const fetchParticularProductData = (id:number) => {
     return new Promise((resolve,reject)=> {
-        axios.get(`http://localhost:3000/produts/${id}`).then(resp => {
+        axios.get(`https://oreodata.herokuapp.com/produts/${id}`).then(resp => {
         console.log(resp.data)    
         resolve(resp.data)
         })
