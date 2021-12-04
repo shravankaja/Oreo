@@ -60,7 +60,7 @@ function SignInForm(props) {
                     <button onClick = {submitData} className="signInButtonSignInPage">Sign In</button>
                 </div>
 
-                <div className="forgotPasswordContainer"><h4>Forgot Password ?</h4> </div>
+               
             </div>
         </>
     )

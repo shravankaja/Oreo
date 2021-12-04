@@ -12,7 +12,7 @@ function SignInHeader({headerButton}) {
 
                 <div className="homeTitleSignInPage"> <h3>Oreo</h3></div>
 
-                <div className="logosAndSignUpLinksSignInPage"> <div className="linksSignInPage">Home</div>
+                <div className="logosAndSignUpLinksSignInPage"> <div className="linksSignInPage" onClick={()=>history.push('/Dashboard')} >Home</div>
 
                     <div className="linksSignInPage">Search Result</div>
 
